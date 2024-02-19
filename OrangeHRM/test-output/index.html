@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-_Orange_HRM_Suite" class="navigator-link">
+              <span class="suite-name border-failed"> Orange HRM Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-_Orange_HRM_Suite" class="navigator-link ">
+                    <span>C:\Users\user\eclipse-workspace\OrangeHRM\src\test\resources\testrunner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-_Orange_HRM_Suite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-_Orange_HRM_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-_Orange_HRM_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-_Orange_HRM_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-_Orange_HRM_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-_Orange_HRM_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods, 9 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-_Orange_HRM_Suite" class="hide-methods failed suite-_Orange_HRM_Suite"> (hide)</a> <!-- hide-methods failed suite-_Orange_HRM_Suite -->
+                      <a href="#" panel-name="suite-_Orange_HRM_Suite" class="show-methods failed suite-_Orange_HRM_Suite"> (show)</a> <!-- show-methods failed suite-_Orange_HRM_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-_Orange_HRM_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.PIM_EmployeeList_Page" class="method navigator-link" hash-for-method="ContactDetails">ContactDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.PIM_EmployeeList_Page" class="method navigator-link" hash-for-method="EmpDetails">EmpDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.PIM_EmployeeList_Page" class="method navigator-link" hash-for-method="EmployeeInformation">EmployeeInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.PIM_EmployeeList_Page" class="method navigator-link" hash-for-method="MaritalStatus">MaritalStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.PIM_EmployeeList_Page" class="method navigator-link" hash-for-method="Mob_And_Email">Mob_And_Email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.PIM_EmployeeList_Page" class="method navigator-link" hash-for-method="PersonalDetails_Nationality">PersonalDetails_Nationality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.PIM_EmployeeList_Page" class="method navigator-link" hash-for-method="SelectCountry">SelectCountry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.PIM_EmployeeList_Page" class="method navigator-link" hash-for-method="Verify_Name">Verify_Name</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.PIM_EmployeeList_Page" class="method navigator-link" hash-for-method="movetoPIM_Employeelist">movetoPIM_Employeelist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-_Orange_HRM_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-_Orange_HRM_Suite" class="hide-methods passed suite-_Orange_HRM_Suite"> (hide)</a> <!-- hide-methods passed suite-_Orange_HRM_Suite -->
+                      <a href="#" panel-name="suite-_Orange_HRM_Suite" class="show-methods passed suite-_Orange_HRM_Suite"> (show)</a> <!-- show-methods passed suite-_Orange_HRM_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-_Orange_HRM_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.PIM_AddEmployee_Page" class="method navigator-link" hash-for-method="AddEmployee">AddEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.PIM_AddEmployee_Page" class="method navigator-link" hash-for-method="CreateLoginDetails">CreateLoginDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.PIM_EmployeeList_Page" class="method navigator-link" hash-for-method="Editoption">Editoption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.Claim_Employeeclaim_page" class="method navigator-link" hash-for-method="addclaimtype">addclaimtype</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.LoginPage" class="method navigator-link" hash-for-method="loginHRM">loginHRM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.Claim_Employeeclaim_page" class="method navigator-link" hash-for-method="movetoclaimlink">movetoclaimlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.Admin_User_RolePage" class="method navigator-link" hash-for-method="movetouserrole">movetouserrole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.Claim_Employeeclaim_page" class="method navigator-link" hash-for-method="select_Status">select_Status</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.Claim_Employeeclaim_page" class="method navigator-link" hash-for-method="select_refid">select_refid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.Admin_User_RolePage" class="method navigator-link" hash-for-method="selectuserrole">selectuserrole</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.Admin_User_RolePage" class="method navigator-link" hash-for-method="selectuserstatus">selectuserstatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.PIM_AddEmployee_Page" class="method navigator-link" hash-for-method="submit">submit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.Admin_User_RolePage" class="method navigator-link" hash-for-method="verifyUsers">verifyUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Orange_HRM_Suite" title="testcases.Claim_Employeeclaim_page" class="method navigator-link" hash-for-method="view">view</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-_Orange_HRM_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-_Orange_HRM_Suite" class="panel _Orange_HRM_Suite">
+          <div class="suite-_Orange_HRM_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.PIM_EmployeeList_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContactDetails">
+                  </a> <!-- ContactDetails -->
+                  <span class="method-name">ContactDetails</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: Contact Details
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d1c67a3e-d606-4fee-8b1d-0b10babb57a3, findElement {using=link text, value=Contact Details}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.7.0, moz:accessibilityChecks: false, moz:buildID: 20240115170312, moz:debuggerAddress: 127.0.0.1:18838, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 5972, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:18838/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d1c67a3e-d606-4fee-8b1d-0b10babb57a3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at testcases.PIM_EmployeeList_Page.ContactDetails(PIM_EmployeeList_Page.java:109)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmpDetails">
+                  </a> <!-- EmpDetails -->
+                  <span class="method-name">EmpDetails</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id=&quot;app&quot;]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div[1]/div/div[2]/div/div/input
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d1c67a3e-d606-4fee-8b1d-0b10babb57a3, findElement {using=xpath, value=//*[@id=&quot;app&quot;]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div[1]/div/div[2]/div/div/input}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.7.0, moz:accessibilityChecks: false, moz:buildID: 20240115170312, moz:debuggerAddress: 127.0.0.1:18838, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 5972, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:18838/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d1c67a3e-d606-4fee-8b1d-0b10babb57a3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.sendKeys(Unknown Source)
+	at testcases.PIM_EmployeeList_Page.EmpDetails(PIM_EmployeeList_Page.java:99)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EmployeeInformation">
+                  </a> <!-- EmployeeInformation -->
+                  <span class="method-name">EmployeeInformation</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[1]/div/div[2]/div/div/input
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d1c67a3e-d606-4fee-8b1d-0b10babb57a3, findElement {using=xpath, value=/html/body/div/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[1]/div/div[2]/div/div/input}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.7.0, moz:accessibilityChecks: false, moz:buildID: 20240115170312, moz:debuggerAddress: 127.0.0.1:18838, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 5972, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:18838/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d1c67a3e-d606-4fee-8b1d-0b10babb57a3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at testcases.PIM_EmployeeList_Page.EmployeeInformation(PIM_EmployeeList_Page.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MaritalStatus">
+                  </a> <!-- MaritalStatus -->
+                  <span class="method-name">MaritalStatus</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[3]/div[1]/div[2]/div/div[2]/div/div
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d1c67a3e-d606-4fee-8b1d-0b10babb57a3, findElement {using=xpath, value=/html/body/div/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[3]/div[1]/div[2]/div/div[2]/div/div}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.7.0, moz:accessibilityChecks: false, moz:buildID: 20240115170312, moz:debuggerAddress: 127.0.0.1:18838, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 5972, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:18838/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d1c67a3e-d606-4fee-8b1d-0b10babb57a3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at testcases.PIM_EmployeeList_Page.MaritalStatus(PIM_EmployeeList_Page.java:85)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Mob_And_Email">
+                  </a> <!-- Mob_And_Email -->
+                  <span class="method-name">Mob_And_Email</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[2]/div/div[2]/div/div[2]/input
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d1c67a3e-d606-4fee-8b1d-0b10babb57a3, findElement {using=xpath, value=/html/body/div/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[2]/div/div[2]/div/div[2]/input}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.7.0, moz:accessibilityChecks: false, moz:buildID: 20240115170312, moz:debuggerAddress: 127.0.0.1:18838, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 5972, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:18838/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d1c67a3e-d606-4fee-8b1d-0b10babb57a3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.sendKeys(Unknown Source)
+	at testcases.PIM_EmployeeList_Page.Mob_And_Email(PIM_EmployeeList_Page.java:138)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PersonalDetails_Nationality">
+                  </a> <!-- PersonalDetails_Nationality -->
+                  <span class="method-name">PersonalDetails_Nationality</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: /html/body/div/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[3]/div[1]/div[1]/div/div[2]/div/div&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at testcases.PIM_EmployeeList_Page.PersonalDetails_Nationality(PIM_EmployeeList_Page.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[3]/div[1]/div[1]/div/div[2]/div/div
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d1c67a3e-d606-4fee-8b1d-0b10babb57a3, findElement {using=xpath, value=/html/body/div/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[3]/div[1]/div[1]/div/div[2]/div/div}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.7.0, moz:accessibilityChecks: false, moz:buildID: 20240115170312, moz:debuggerAddress: 127.0.0.1:18838, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 5972, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:18838/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d1c67a3e-d606-4fee-8b1d-0b10babb57a3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 27 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectCountry">
+                  </a> <!-- SelectCountry -->
+                  <span class="method-name">SelectCountry</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[1]/div/div[6]/div/div[2]/div/div
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d1c67a3e-d606-4fee-8b1d-0b10babb57a3, findElement {using=xpath, value=/html/body/div/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[1]/div/div[6]/div/div[2]/div/div}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.7.0, moz:accessibilityChecks: false, moz:buildID: 20240115170312, moz:debuggerAddress: 127.0.0.1:18838, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 5972, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:18838/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d1c67a3e-d606-4fee-8b1d-0b10babb57a3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at testcases.PIM_EmployeeList_Page.SelectCountry(PIM_EmployeeList_Page.java:123)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Name">
+                  </a> <!-- Verify_Name -->
+                  <span class="method-name">Verify_Name</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div/div[1]/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div[3]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d1c67a3e-d606-4fee-8b1d-0b10babb57a3, findElement {using=xpath, value=/html/body/div/div[1]/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div[3]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.7.0, moz:accessibilityChecks: false, moz:buildID: 20240115170312, moz:debuggerAddress: 127.0.0.1:18838, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 5972, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:18838/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d1c67a3e-d606-4fee-8b1d-0b10babb57a3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.getText(Unknown Source)
+	at testcases.PIM_EmployeeList_Page.Verify_Name(PIM_EmployeeList_Page.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="movetoPIM_Employeelist">
+                  </a> <!-- movetoPIM_Employeelist -->
+                  <span class="method-name">movetoPIM_Employeelist</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;oxd-main-menu-item&quot; href=&quot;/web/index.php/pim/viewPimModule&quot;&gt; is not clickable at point (123,214) because another element &lt;div class=&quot;oxd-dialog-container-default--inner&quot;&gt; obscures it
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d1c67a3e-d606-4fee-8b1d-0b10babb57a3, clickElement {id=96666ed6-7087-42ae-8a4f-5dcd21cb75e7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.7.0, moz:accessibilityChecks: false, moz:buildID: 20240115170312, moz:debuggerAddress: 127.0.0.1:18838, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.1, moz:processID: 5972, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:18838/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (d1c67a3e-d606-4fee-8b1d-0b10babb57a3)] -&gt; link text: PIM]
+Session ID: d1c67a3e-d606-4fee-8b1d-0b10babb57a3
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at testcases.PIM_EmployeeList_Page.movetoPIM_Employeelist(PIM_EmployeeList_Page.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Orange_HRM_Suite-class-failed -->
+          <div class="suite-_Orange_HRM_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.LoginPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginHRM">
+                  </a> <!-- loginHRM -->
+                  <span class="method-name">loginHRM</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Orange_HRM_Suite-class-passed -->
+          <div class="suite-_Orange_HRM_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.Claim_Employeeclaim_page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addclaimtype">
+                  </a> <!-- addclaimtype -->
+                  <span class="method-name">addclaimtype</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="movetoclaimlink">
+                  </a> <!-- movetoclaimlink -->
+                  <span class="method-name">movetoclaimlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="select_Status">
+                  </a> <!-- select_Status -->
+                  <span class="method-name">select_Status</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="select_refid">
+                  </a> <!-- select_refid -->
+                  <span class="method-name">select_refid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="view">
+                  </a> <!-- view -->
+                  <span class="method-name">view</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Orange_HRM_Suite-class-passed -->
+          <div class="suite-_Orange_HRM_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.PIM_AddEmployee_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddEmployee">
+                  </a> <!-- AddEmployee -->
+                  <span class="method-name">AddEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateLoginDetails">
+                  </a> <!-- CreateLoginDetails -->
+                  <span class="method-name">CreateLoginDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submit">
+                  </a> <!-- submit -->
+                  <span class="method-name">submit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Orange_HRM_Suite-class-passed -->
+          <div class="suite-_Orange_HRM_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.PIM_EmployeeList_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Editoption">
+                  </a> <!-- Editoption -->
+                  <span class="method-name">Editoption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Orange_HRM_Suite-class-passed -->
+          <div class="suite-_Orange_HRM_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.Admin_User_RolePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="movetouserrole">
+                  </a> <!-- movetouserrole -->
+                  <span class="method-name">movetouserrole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectuserrole">
+                  </a> <!-- selectuserrole -->
+                  <span class="method-name">selectuserrole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectuserstatus">
+                  </a> <!-- selectuserstatus -->
+                  <span class="method-name">selectuserstatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUsers">
+                  </a> <!-- verifyUsers -->
+                  <span class="method-name">verifyUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Orange_HRM_Suite-class-passed -->
+        </div> <!-- panel _Orange_HRM_Suite -->
+        <div panel-name="test-xml-_Orange_HRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\user\eclipse-workspace\OrangeHRM\src\test\resources\testrunner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot; Orange HRM Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot; Login Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.LoginPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!--  Login Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot; UserRole Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.Admin_User_RolePage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!--  UserRole Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;  Employeeclaim Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.Claim_Employeeclaim_page&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!--   Employeeclaim Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot; employeelist Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.PIM_EmployeeList_Page&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!--  employeelist Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot; Addemployee Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.PIM_AddEmployee_Page&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!--  Addemployee Test --&gt;
+&lt;/suite&gt; &lt;!--  Orange HRM Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-_Orange_HRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for  Orange HRM Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name"> Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name"> UserRole Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">  Employeeclaim Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name"> employeelist Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name"> Addemployee Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-_Orange_HRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for  Orange HRM Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-_Orange_HRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for  Orange HRM Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData__Orange_HRM_Suite');
+function tableData__Orange_HRM_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'PersonalDetails_Nationality')
+data.setCell(0, 2, 'testcases.PIM_EmployeeList_Page')
+data.setCell(0, 3, 26628);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginHRM')
+data.setCell(1, 2, 'testcases.LoginPage')
+data.setCell(1, 3, 11769);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'movetouserrole')
+data.setCell(2, 2, 'testcases.Admin_User_RolePage')
+data.setCell(2, 3, 10508);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SelectCountry')
+data.setCell(3, 2, 'testcases.PIM_EmployeeList_Page')
+data.setCell(3, 3, 5533);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'EmployeeInformation')
+data.setCell(4, 2, 'testcases.PIM_EmployeeList_Page')
+data.setCell(4, 3, 5209);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ContactDetails')
+data.setCell(5, 2, 'testcases.PIM_EmployeeList_Page')
+data.setCell(5, 3, 5072);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Verify_Name')
+data.setCell(6, 2, 'testcases.PIM_EmployeeList_Page')
+data.setCell(6, 3, 5031);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'EmpDetails')
+data.setCell(7, 2, 'testcases.PIM_EmployeeList_Page')
+data.setCell(7, 3, 5027);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Mob_And_Email')
+data.setCell(8, 2, 'testcases.PIM_EmployeeList_Page')
+data.setCell(8, 3, 5023);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'MaritalStatus')
+data.setCell(9, 2, 'testcases.PIM_EmployeeList_Page')
+data.setCell(9, 3, 5019);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'selectuserrole')
+data.setCell(10, 2, 'testcases.Admin_User_RolePage')
+data.setCell(10, 3, 4452);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'AddEmployee')
+data.setCell(11, 2, 'testcases.PIM_AddEmployee_Page')
+data.setCell(11, 3, 4311);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'select_refid')
+data.setCell(12, 2, 'testcases.Claim_Employeeclaim_page')
+data.setCell(12, 3, 4227);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'addclaimtype')
+data.setCell(13, 2, 'testcases.Claim_Employeeclaim_page')
+data.setCell(13, 3, 4115);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'movetoclaimlink')
+data.setCell(14, 2, 'testcases.Claim_Employeeclaim_page')
+data.setCell(14, 3, 2856);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'view')
+data.setCell(15, 2, 'testcases.Claim_Employeeclaim_page')
+data.setCell(15, 3, 2466);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'select_Status')
+data.setCell(16, 2, 'testcases.Claim_Employeeclaim_page')
+data.setCell(16, 3, 2341);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'selectuserstatus')
+data.setCell(17, 2, 'testcases.Admin_User_RolePage')
+data.setCell(17, 3, 1579);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyUsers')
+data.setCell(18, 2, 'testcases.Admin_User_RolePage')
+data.setCell(18, 3, 1558);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'CreateLoginDetails')
+data.setCell(19, 2, 'testcases.PIM_AddEmployee_Page')
+data.setCell(19, 3, 1468);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'movetoPIM_Employeelist')
+data.setCell(20, 2, 'testcases.PIM_EmployeeList_Page')
+data.setCell(20, 3, 560);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Editoption')
+data.setCell(21, 2, 'testcases.PIM_EmployeeList_Page')
+data.setCell(21, 3, 509);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'submit')
+data.setCell(22, 2, 'testcases.PIM_AddEmployee_Page')
+data.setCell(22, 3, 303);
+window.suiteTableData['_Orange_HRM_Suite']= { tableData: data, tableDiv: 'times-div-_Orange_HRM_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-_Orange_HRM_Suite">
+              </div> <!-- times-div-_Orange_HRM_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-_Orange_HRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for  Orange HRM Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-_Orange_HRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-_Orange_HRM_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PIM_AddEmployee_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.LoginPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginHRM</span>
+                <span class="method-start">48558 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Admin_User_RolePage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">movetouserrole</span>
+                <span class="method-start">62337 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectuserrole</span>
+                <span class="method-start">72858 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectuserstatus</span>
+                <span class="method-start">77315 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyUsers</span>
+                <span class="method-start">78900 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Claim_Employeeclaim_page</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">movetoclaimlink</span>
+                <span class="method-start">80583 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">select_refid</span>
+                <span class="method-start">83490 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">select_Status</span>
+                <span class="method-start">87722 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">view</span>
+                <span class="method-start">90068 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addclaimtype</span>
+                <span class="method-start">92547 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PIM_EmployeeList_Page</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">movetoPIM_Employeelist</span>
+                <span class="method-start">96752 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EmployeeInformation</span>
+                <span class="method-start">97360 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_Name</span>
+                <span class="method-start">102579 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Editoption</span>
+                <span class="method-start">107623 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">PersonalDetails_Nationality</span>
+                <span class="method-start">108138 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MaritalStatus</span>
+                <span class="method-start">134779 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EmpDetails</span>
+                <span class="method-start">139807 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ContactDetails</span>
+                <span class="method-start">144841 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SelectCountry</span>
+                <span class="method-start">149920 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Mob_And_Email</span>
+                <span class="method-start">155460 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PIM_AddEmployee_Page</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AddEmployee</span>
+                <span class="method-start">161182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreateLoginDetails</span>
+                <span class="method-start">165508 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">submit</span>
+                <span class="method-start">166980 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">167332 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

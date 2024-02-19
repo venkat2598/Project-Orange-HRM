@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ Orange HRM Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name=" employeelist Test(failed)">
+    <classes>
+      <class name="testcases.PIM_EmployeeList_Page">
+        <methods>
+          <include name="Mob_And_Email"/>
+          <include name="PersonalDetails_Nationality"/>
+          <include name="Verify_Name"/>
+          <include name="EmployeeInformation"/>
+          <include name="ContactDetails"/>
+          <include name="EmpDetails"/>
+          <include name="MaritalStatus"/>
+          <include name="SelectCountry"/>
+          <include name="movetoPIM_Employeelist"/>
+          <include name="TearDown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testcases.PIM_EmployeeList_Page -->
+    </classes>
+  </test> <!--  employeelist Test(failed) -->
+</suite> <!-- Failed suite [ Orange HRM Suite] -->
